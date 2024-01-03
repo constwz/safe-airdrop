@@ -139,4 +139,24 @@ export const networkInfo = new Map<number, NetworkInfo>([
       baseAPI: "https://safe-transaction-volta.safe.global/api/v1",
     },
   ],
+  [
+    204,
+    {
+      chainID: 204,
+      name: "OPBNB",
+      shortName: "opbnb",
+      currencySymbol: "bnb",
+      baseAPI: "https://safe-transaction-opbnb-mainnet.bnbchain.org/api/v1",
+    },
+  ],
+  [
+    5611,
+    {
+      chainID: 5611,
+      name: "OPBNB-testnet",
+      shortName: "opbnb-testnet",
+      currencySymbol: "bnb",
+      baseAPI: "https://safe-transaction-opbnb-testnet.bnbchain.org/api/v1",
+    },
+  ],
 ]);
